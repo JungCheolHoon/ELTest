@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+			http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_1.xsd" 
+			version="2.1"> 
+
+	<description>My function Library</description>
+	<tlib-version>0.1</tlib-version>
+	<short-name>MyFunction</short-name>
+	
+	<function>
+		<description>sum of two digit</description>
+		<name>sum</name>
+		<function-class>functions.MyFunction</function-class>
+		<function-signature>int sum(int,int)</function-signature>
+	</function>
+	
+</taglib>
